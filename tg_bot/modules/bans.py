@@ -74,14 +74,14 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     
 
     if user_id == OWNER_ID:
-        message.reply_text("Haha, you know that I'm not gonna ban my boss")
+        message.reply_text("Stop trying to ban my Lord Drona, you retard")
         return ""
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I really wish I could ban admins...")
+        message.reply_text("Sed, I really wish I could ban admins...")
         return ""
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I'm not gonna BAN myself, Go F yourself")
         return ""
 
     log = "<b>{}:</b>" \
@@ -106,7 +106,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     except BadRequest as excp:
         if excp.message == "Reply message not found":
             # Do not reply
-            message.reply_text('Banned!', quote=False)
+            message.reply_text('Banned that retard!', quote=False)
             return log
         else:
             LOGGER.warning(update)
@@ -143,11 +143,11 @@ def temp_ban(bot: Bot, update: Update, args: List[str]) -> str:
             raise
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I really wish I could ban admins...")
+        message.reply_text("Lol I really wish I could ban admins...")
         return ""
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I'm not gonna BAN myself, You DumbFuck")
         return ""
 
     if not reason:
