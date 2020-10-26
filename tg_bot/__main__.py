@@ -166,11 +166,7 @@ def send_start(bot, update):
 
 
 
-    keyboard = [[
-        InlineKeyboardButton(text=tld(chat.id, 'Support Group'),
-                             url="https://t.me/ctrlsupport")
-        ]]
-                           
+   
     keyboard += [[
         InlineKeyboardButton(text=tld(chat.id, '❔ Help'), callback_data="help_back")
     ]]
