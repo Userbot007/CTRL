@@ -164,9 +164,11 @@ def send_start(bot, update):
     text = PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID,
            parse_mode=ParseMode.MARKDOWN)
 
+    keyboard = [[
+        InlineKeyboardButton(text=tld(chat.id, 'DoNOT Press F'),
+                             url="https://knowyourmeme.com/memes/press-f-to-pay-respects")
+        ]]
 
-
-   
     keyboard += [[
         InlineKeyboardButton(text=tld(chat.id, '❔ Help'), callback_data="help_back")
     ]]
