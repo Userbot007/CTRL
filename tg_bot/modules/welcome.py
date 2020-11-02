@@ -100,10 +100,10 @@ def new_member(bot: Bot, update: Update):
             elif new_mem.id == bot.id:
                 bot.send_message(
                     MESSAGE_DUMP,
-                    "I have been added to this chat - {} with \nID: <pre>{}</pre>".format(chat.title, chat.id),
+                    "I have been added to this group - {} with \nID: <pre>{}</pre>".format(chat.title, chat.id),
                     parse_mode=ParseMode.HTML
                 )
-                update.effective_message.reply_text("Thanks for adding me Boi, Lemme handle all the pressure!")
+                update.effective_message.reply_text("Tanks for adding me here Boi, Lemme send some nudes to you :D !")
 
             else:
                 # If welcome message is media, send with appropriate function
