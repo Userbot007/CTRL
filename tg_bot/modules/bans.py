@@ -74,10 +74,10 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
     
 
     if user_id == OWNER_ID:
-        message.reply_text("Stop trying to ban my Lord Drona, you retard")
+        message.reply_text("WTF are you doing bsdk ?? Bhenchod meri BF hai wo")
         return ""
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("Sed, I really wish I could ban admins...")
+        message.reply_text("Sed, I really wish I could ban admins., btw halo Retard..")
         return ""
 
     if user_id == bot.id:
