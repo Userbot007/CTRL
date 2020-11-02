@@ -144,7 +144,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
                        parse_mode=ParseMode.HTML)
 
     try:
-        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your Gban by contacting Lord Drona",parse_mode=ParseMode.HTML)
+        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your Gban by contacting @Chainfire141",parse_mode=ParseMode.HTML)
     except:
         pass #Bot either blocked or never started by user
 
