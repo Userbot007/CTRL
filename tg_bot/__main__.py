@@ -54,7 +54,7 @@ Okay you want some help!Here is it, also remember  my name is *{}*
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey  you can Donate  to poor peoples if u really wanna do it, else send some sexy dp to my master @Chainfire #ktnxbye."""
+DONATE_STRING = """Hey  you can Donate  to poor peoples if u really wanna do it, else send some sexy dp to my master @Chainfire141 #ktnxbye."""
 
 
 IMPORTED = {}
