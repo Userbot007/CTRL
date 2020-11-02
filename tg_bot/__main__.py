@@ -27,11 +27,11 @@ def escape_html(word):
     return escape(word)
 
 PM_START_TEXT = """
-Hey {}, my name is **{}**! Im a group management Bot, fork of Marie and some other usefull features... 
+Sup {}, my name is **{}**! Im a sexy Bhabhi who can handle your dick's... 
 
-Maintained by  Lord Drona.
+Maintained by this nigga @Chainfire141 
 
-Press /help for all available commands !👍
+Press /help to see what i can do !👍
 
 """
 
@@ -54,7 +54,7 @@ Okay you want some help!Here is it, also remember  my name is *{}*
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey  you can Donate  to poor peoples if u really wanna do it #ktnxbye."""
+DONATE_STRING = """Hey  you can Donate  to poor peoples if u really wanna do it, else send some sexy dp to my master @Chainfire #ktnxbye."""
 
 
 IMPORTED = {}
