@@ -23,7 +23,7 @@ def addsudo(bot: Bot, update: Update, args: List[str]):
         return ""
         
     if int(user_id) == OWNER_ID:
-        message.reply_text("The specified user is my owner! No need add him to SUDO_USERS list!")
+        message.reply_text("The specified user is my Owner , you bitch! No need add him to SUDO_USERS list!")
         return ""
         
     if int(user_id) in SUDO_USERS:
